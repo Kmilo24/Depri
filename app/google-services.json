@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869003508839",
+    "project_id": "depri-977f7",
+    "storage_bucket": "depri-977f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869003508839:android:0e4edc0ca857e393fbe8c2",
+        "android_client_info": {
+          "package_name": "com.example.depri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869003508839-di31n3r1kjtdsnleb6hv724rcrm5qmp3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQmDdb_ARI8i7DjzNfuQz_e0wqdK1nBqI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869003508839-di31n3r1kjtdsnleb6hv724rcrm5qmp3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

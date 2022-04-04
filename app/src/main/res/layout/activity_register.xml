@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        tools:context=".Register">
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:id="@+id/ini"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_centerHorizontal="true"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="30dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/registro" />
+        </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ini"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/decoregis" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/ini"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:id="@+id/todo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/nombres"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="100dp"
+                        android:background="@drawable/decobot"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:hint="NOMBRES"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/apellidos"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/decobot"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:hint="APELLIDOS"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/identi"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/nombres"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/decobot"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:hint="ID"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/telefono"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/apellidos"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/decobot"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:hint="TELEFONO"
+                        android:textSize="15dp" />
+
+
+                    <EditText
+                        android:id="@+id/correo"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/telefono"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/decobot"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:hint="CORREO"
+                        android:inputType="textEmailAddress"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/contra"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/correo"
+                        android:layout_margin="20dp"
+
+                        android:background="@drawable/decobot"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:hint="CONTRASEÑA"
+                        android:inputType="textPassword"
+                        android:textSize="15dp" />
+
+                    <EditText
+                        android:id="@+id/confContre"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/correo"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="20dp"
+                        android:background="@drawable/decobot"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:hint="CONF CONTRASEÑA"
+                        android:inputType="textPassword"
+                        android:textSize="15dp" />
+
+                    <Button
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/contra"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_marginBottom="30dp"
+                        android:background="@drawable/decobot"
+                        android:fontFamily="monospace"
+                        android:text="REGISTRER"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </RelativeLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+</RelativeLayout>

@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/drawable/decobot.xml" value="0.1435" />
         <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/drawable/decora.xml" value="0.1435" />
-        <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/layout/activity_login.xml" value="0.33" />
-        <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/drawable/decoregis.xml" value="0.1435" />
+        <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/drawable/derecu.xml" value="0.1945" />
+        <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/kmilo/Desktop/Depri/app/src/main/res/layout/activity_register.xml" value="0.2213855421686747" />
       </map>
     </option>
   </component>
